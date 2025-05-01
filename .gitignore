@@ -1,0 +1,74 @@
+# Directorios de compilación de Java
+build/
+out/
+bin/
+
+# Directorios del IDE
+.idea/
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+
+# Directorios de Gradle
+.gradle/
+gradle-app.setting
+gradle-build.setting
+gradle-user-home
+
+# Archivos de caché de Gradle
+.gradle/caches/
+.gradle/daemon/
+.gradle/workers/
+.gradle/buildOutputCleanup/
+
+# Archivos de log de Gradle
+gradle-build.log
+
+# Archivos de ejecución
+*.jar
+*.war
+*.ear
+
+# Directorios de dependencias (si los tienes localmente, aunque Gradle los gestiona)
+lib/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros archivos temporales o de respaldo
+*.log
+*.bak
+*.swp
+*.swo
+~*
+\#*
+.$*
+
+# Ficheros generados por el IDE (puedes ser más específico si lo necesitas)
+target/
+
+# Ficheros de cobertura de código (si usas alguna herramienta)
+jacoco.exec
+build/jacoco/
+
+# Ficheros de informes (puedes ser más específico)
+build/reports/
+
+# Ficheros de distribución (si generas distribuciones)
+build/distributions/
+
+# Ejecutables nativos (si los generas)
+build/native/
+
+# Ficheros de caché de Maven (si también usas Maven en el proyecto)
+.m2/repository/
+
+# Si usas Docker
+docker-compose.override.yml
+docker-compose.yml.bak
+.dockerenv
+.env
+.vscode/
